@@ -119,7 +119,7 @@
     bottom: 0px;
 }
 header{
-    background-image: url("../Imagenes/fondodp.jpg");
+    background-image: url("Imagenes/fondodp.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
