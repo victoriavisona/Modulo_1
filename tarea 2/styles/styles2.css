@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+h1{ 
+    color: black;
+    text-align: left;
+    position: absolute;
+    top: 5px;
+    font-size: 400%;
+    
+}
+header{
+    background-image: url("../Imagenes/design2_image1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 500px;
+    margin-top: 70px;
+}
+#logo{
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    height: 200px;
+    width: 200px;
+}
+nav{ 
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+nav a{
+    display: inline;
+    margin-right: 50px;
+    font-size: 150%;
+    background-color: #1651be;
+    color: white;
+    box-shadow: 7px 7px black;
+}
+#green{ 
+    display: inline;
+    margin-right: 50px;
+    font-size: 150%;
+    background-color: #147c22;
+    color: white;
+}
+#soccer{
+    float: right;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+h2{
+    background-color: white;
+    color: black;
+    text-align: center;
+    vertical-align: center;
+    border: 3px solid black;
+    font-size: 250%;
+}
+section{
+    display: block;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+    margin-right: 400px;
+    font-size: 120%;
+}
+h3{
+    margin-top: 50px;
+}
+article{
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 300px;
+    font-size: 120%;
+}

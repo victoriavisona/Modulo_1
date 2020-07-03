@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#index{
+    background-color: rgba(20, 240, 155, 0.616);
+}
+#about{
+    background-color: rgba(6, 247, 194, 0.527);
+}
+#galery{
+    background-color: rgba(5, 245, 253, 0.507);
+}
+#contact{
+    background-color: rgba(10, 195, 241, 0.507);
+}
+#h1index{ 
+    color: white;
+    background-color: #028860;
+    font-size: 400%;
+    bottom: 15px;
+    text-align: center;
+}
+#h1about{ 
+    color: white;
+    background-color: #069c7c;
+    font-size: 400%;
+    bottom: 15px;
+    text-align: center;
+}
+#h1galery{ 
+    color: white;
+    background-color: #06b3aa;
+    font-size: 400%;
+    bottom: 15px;
+    text-align: center;
+}
+#h1rp{
+    color: white;
+    background-color: #068f99;
+    font-size: 400%;
+    bottom: 15px;
+    text-align: center;
+}
+#h1contact{ 
+    color: white;
+    background-color: #0985be;
+    font-size: 400%;
+    bottom: 15px;
+    text-align: center;
+}
+#h2index{
+    background-color: #0cca91;
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    bottom: 0px;
+}
+#h2about{
+    background-color: #09e4b4;
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    bottom: 0px;
+}
+#h2galery{ 
+    background-color: #0eeee3;
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    bottom: 0px;
+}
+#h2rp{
+    background-color: #09bcdb;
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    bottom: 0px;
+}
+#h2contact{
+    background-color: #0594cc;
+    color: white;
+    text-align: center;
+    font-size: 250%;
+    bottom: 0px;
+}
+header{
+    background-image: url("../Imagenes/fondodp.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    padding-top: 500px;
+    position: relative;
+    font-family: Georgia;
+}
+#logo{
+    position: absolute;
+    top: 700px;
+    right: 50px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px rgb(5, 61, 5);
+    border-radius: 50%;
+}
+#logogalery{
+    position: absolute;
+    top: 450px;
+    right: 50px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px rgb(5, 61, 5);
+    border-radius: 50%;
+}
+nav{ 
+    position: absolute;
+    top: 650px;
+    left: 400px;
+}
+nav a{
+    display: inline;
+    margin: 100px;
+    font-size: 150%;
+    background-color: #1f921b;
+    color: white;
+    border: 3px solid rgb(4, 70, 59);
+    box-shadow: 7px 7px rgb(4, 70, 59);
+    font-family: serif;
+}
+#green{ 
+    display: inline;
+    margin-right: 50px;
+    font-size: 150%;
+    background-color: #0466e6;
+    color: white;
+    border: 3px solid rgb(2, 47, 83);
+    box-shadow: 7px 7px rgb(2, 47, 83);
+}
+#soccer{
+    float: right;
+    margin-right: 200px;
+    margin-top: 15px;
+}
+section{
+    display: block;
+    text-align: left;
+    margin-top: 90px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    margin-right: 500px;
+    font-size: 120%;
+    font-family: 'Times New Roman';
+}
+h3{
+    margin-top: 50px;
+}
+article{
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 550px;
+    font-size: 120%;
+    font-family: 'Times New Roman';
+}
+.decorativa{
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    height: 300px;
+    width: 400px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(10, 150px);
+    grid-template-rows: repeat(6, 150px);
+    grid-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+#container>div:first-child{
+    grid-column: 1 / span 2;
+}
+
+#container>div:nth-child(2){
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 2;
+}
+#container>div:nth-child(4){
+    grid-row: 1 / span 3;
+    grid-column: 9 / span 2;
+}
+#container>div:nth-child(3){
+    grid-row: 3 / span 2;
+    grid-column: 4 / span 4;
+}
+#container>div:nth-child(5){
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 2;
+}
+#container>div:nth-child(6){
+    grid-row: 5 / span 2;
+    grid-column: 8 / span 3;
+}
+#container>div:nth-child(7){
+    grid-row: 5 / span 2;
+    grid-column: 4 / span 3;
+}
+#container>div:nth-child(8){
+    grid-row: 4;
+    grid-column: 9 / span 2;
+}
+#container>div:nth-child(9){
+    grid-row: 3;
+    grid-column: 3;
+}
+#container>div:nth-child(10){
+    grid-row: 2;
+    grid-column: 7 / span 2;
+}
+#container>div:nth-child(11){
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 2;
+}
+#container>div:nth-child(12){
+    grid-row: 1;
+    grid-column: 7 / span 2;
+}
+#container>div:nth-child(13){
+    grid-row: 3 / span 2;
+    grid-column: 8;
+}
+#container>div:nth-child(14){
+    grid-row: 6;
+    grid-column: 2;
+}
+#container>div:nth-child(15){
+    grid-row: 6;
+    grid-column: 1;
+}
+#container>div:nth-child(16){
+    grid-row: 6;
+    grid-column: 3;
+}
+#container>div:nth-child(17){
+    grid-row: 5 /span 2;
+    grid-column: 7;
+}
+#container img{
+    width: 100%;
+    height: 100%;
+    border: dotted 5px rgb(2, 54, 30); 
+    background-color: rgb(27, 197, 146);
+}
