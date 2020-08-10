@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Northside Youth Soccer League</title>
+        <link rel="stylesheet" href="../styles3.css">
+    </head> 
+    
+    <body id="reg">
+        <header> 
+            <img src="../Imagenes/nysl_logo.png" alt="logo" id="logo">
+            <h1 id="h1reg">Northside Youth Soccer League</h1>  
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="galery.html">Galery</a>
+                <a href="schedule.html">Schudule</a>
+                <a href="rulespolicies.html">Rules & Policies</a>
+                <a href="contact.html">Contact</a>
+                <a href="registration.html" id="green">Registration</a>
+            </nav> 
+            <h2 id="h2reg">Upcoming Events</h2>
+        </header>
+
+        <main>
+            <form action="showdata.html">
+                <fieldset class="personal">
+                     <label>
+                        Player's First Name:
+                        <input type="text" name="first name">
+                    </label>
+                    <label>
+                        Last Name:
+                        <input type="text" name="last name">
+                    </label>
+                </fieldset>
+                <fieldset class="personal">
+                    <label>
+                        Sreet Address:
+                        <input type="text" name="address">
+                    </label>
+                    <label>
+                        City:
+                        <input type="text" name="city">
+                    </label>
+                    <label>
+                        Zip Code:
+                        <input type="text" name="code">
+                    </label>
+                </fieldset>
+                <fieldset class="personal">
+                    <label>
+                        Birth Date (mm/dd/yyyy):
+                        <input type="date" name="bdate">
+                    </label>
+                </fieldset>
+                <fieldset id="gender">
+                    <legend>
+                        Gender:
+                    </legend>
+                    <label>
+                        <input type="radio" value="Famale" name="gender">
+                        Famale
+                    </label>
+                    <label>
+                       <input type="radio" value="Male" name="gender">
+                       Male
+                    </label>
+                </fieldset>
+                <fieldset id="grade">
+                    <legend>
+                        Grade:
+                    </legend>
+                    <label>
+                        <input type="radio" value="grade" name="grade">
+                        Pre-School
+                    </label>
+                    <label>
+                        <input type="radio" value="grade" name="grade">
+                        1°
+                    </label>
+                    <label>
+                        <input type="radio" value="grade" name="grade">
+                        2°
+                    </label>
+                    <label>
+                        <input type="radio" value="grade" name="grade">
+                        3°
+                    </label>
+                    <label>
+                        <input type="radio" value="grade" name="grade">
+                        4°
+                    </label>
+                    <label>
+                        <input type="radio" value="grade" name="grade">
+                        5°
+                    </label>
+                </fieldset>
+                <fieldset class="informacion">
+                    <label>
+                        Parent/Guardian:
+                        <input type="text" name="parent">
+                    </label>
+                    <label>
+                        Contact Phone:
+                        <input type="number" name="phone">
+                    </label>
+                    <label>
+                        Contact Email:
+                        <input type="email" name="email">
+                    </label>
+                </fieldset> 
+                <h4><strong>Elementary schools do you live near?</strong></h4>
+                <fieldset class="school1">
+                    <legend>
+                        <strong>First Closest School:</strong>
+                    </legend>
+                    <label>
+                        AJ Katzenmaier
+                        <input type="radio" name="1school">
+                    </label>
+                    <label>
+                        Greenbay
+                        <input type="radio" name="1school">
+                    </label>
+                    <label>
+                        Howard A Yeager
+                        <input type="radio" name="1school">
+                    </label>
+                    <label>
+                        Marjorie P Hart
+                        <input type="radio" name="1school">
+                    </label>
+                    <label>
+                        North Elementary
+                        <input type="radio" name="1school">
+                    </label>
+                    <label>
+                        South Elementary
+                        <input type="radio" name="1school">
+                    </label>
+                </fieldset>
+                <fieldset class="school2">
+                    <legend>
+                        <strong>Second Closest School:</strong>
+                    </legend>
+                    <label>
+                        AJ Katzenmaier
+                        <input type="radio" name="2school">
+                    </label>
+                    <label>
+                        Greenbay
+                        <input type="radio" name="2school">
+                    </label>
+                    <label>
+                        Howard A Yeager
+                        <input type="radio" name="2school">
+                    </label>
+                    <label>
+                        Marjorie P Hart
+                        <input type="radio" name="2school">
+                    </label>
+                    <label>
+                        North Elementary
+                        <input type="radio" name="2school">
+                    </label>
+                    <label>
+                        South Elementary
+                        <input type="radio" name="2school">
+                    </label>
+                </fieldset>
+                <fieldset class="position">
+                    <legend>
+                        <strong>What position(s) do you normally play?</strong> (check all that apply)
+                    </legend>
+                    <label>
+                        Forward
+                        <input type="checkbox" name="position">
+                    </label>
+                    <label>
+                        Defense
+                        <input type="checkbox" name="position">
+                    </label>
+                    <label>
+                        Midfield
+                        <input type="checkbox" name="position">
+                    </label>
+                    <label>
+                        Goalkeeper
+                        <input type="checkbox" name="position">
+                    </label>
+                </fieldset >
+                <label class="uniform">
+                    <input type="checkbox" name="Uniform">
+                    Already Have a Uniform
+                </label>
+                <fieldset class="jersey">
+                    <legend>
+                        <strong>Jersey Size:</strong>
+                    </legend>
+                    <label>
+                        Youth Small
+                        <input type="radio" name="jersey">
+                    </label>
+                    <label>
+                        Youth Medium
+                        <input type="radio" name="jersey">
+                    </label>
+                    <label>
+                        Youth Large
+                        <input type="radio" name="jersey">
+                    </label>
+                    <label>
+                        Small
+                        <input type="radio" name="jersey">
+                    </label>
+                    <label>
+                        Medium
+                        <input type="radio" name="jersey">
+                    </label>
+                    <label>
+                        Large
+                        <input type="radio" name="jersey">
+                    </label>
+                    <label>
+                        Extra-Large
+                        <input type="radio" name="jersey">
+                    </label>
+                </fieldset>
+                <fieldset class="shorts">
+                    <legend>
+                        <strong>Shorts Size:</strong>
+                    </legend>
+                    <label>
+                        Youth Small
+                        <input type="radio" name="shorts">
+                    </label>
+                    <label>
+                        Youth Medium
+                        <input type="radio" name="shorts">
+                    </label>
+                    <label>
+                        Youth Large
+                        <input type="radio" name="shorts">
+                    </label>
+                    <label>
+                        Small
+                        <input type="radio" name="shorts">
+                    </label>
+                    <label>
+                        Medium
+                        <input type="radio" name="shorts">
+                    </label>
+                    <label>
+                        Large
+                        <input type="radio" name="shorts">
+                    </label>
+                    <label>
+                        Extra-Large
+                        <input type="radio" name="shorts">
+                    </label>
+                </fieldset>
+                <fieldset class="permisos">
+                    <legend>
+                            <strong>Permission to Play</strong>
+                            I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                            Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                            accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                            employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                            on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                            sponsored activities, which transportation.
+                            By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                            cancellation policy and agree to its terms.
+                    </legend>
+                    <label>
+                        Parent/Guardian Signature:
+                        <input type="text" name="signature">
+                    </label>
+                    <label>
+                        Date:
+                        <input type="date" name="date">
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </main>    
+    </body>
+</html>
